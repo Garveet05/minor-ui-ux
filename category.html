@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serene Indore - Plan Your Trip</title>
+  <link rel="stylesheet" href="category.css">
+  <script src="category.js" defer></script>
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo-img"></div>
+      <a href="#" class="nav-logo">Serene Indore</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link active">Plan Your Trip</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="header">
+    <h1>Plan Your Trip to Indore</h1>
+    <p>Customize your journey by selecting the types of places you wish to visit.</p>
+  </header>
+
+  <!-- Introduction Section -->
+  <section class="intro">
+    <p>
+      Welcome to Serene Indore! Indore is filled with amazing places to visit, from food streets to 
+      serene nature spots, spiritual temples, adventure zones, and historic heritage sites. Choose your 
+      preferences below to customize your trip, and we'll suggest the best locations for you!
+    </p>
+  </section>
+
+  <!-- Form Section -->
+  <section class="form-section">
+    <form id="planForm">
+      <h2>Select the types of places you want to explore:</h2>
+
+      <div class="categories">
+        <!-- Food Places -->
+        <div class="category">
+          <img src="images/food.webp" alt="Food Places">
+          <div class="category-content">
+            <input type="checkbox" id="food" name="places" value="Food Places">
+            <label for="food">Food Places</label>
+            <p class="description">Explore Indore's famous street food, from poha-jalebi to kachori and sweets!</p>
+          </div>
+        </div>
+
+        <!-- Shopping Places -->
+        <div class="category">
+          <img src="images/shopping.jpg" alt="Shopping Places">
+          <div class="category-content">
+            <input type="checkbox" id="shopping" name="places" value="Shopping Places">
+            <label for="shopping">Shopping Places</label>
+            <p class="description">Shop till you drop in vibrant bazaars, from traditional handicrafts to modern malls.</p>
+          </div>
+        </div>
+
+        <!-- Nature Spots -->
+        <div class="category">
+          <img src="images/patalpani-waterfall-2.jpg" alt="Nature Spots">
+          <div class="category-content">
+            <input type="checkbox" id="nature" name="places" value="Nature Spots">
+            <label for="nature">Nature Spots</label>
+            <p class="description">Relax amidst greenery with beautiful parks, waterfalls, and serene nature spots.</p>
+          </div>
+        </div>
+
+        <!-- Spiritual Places -->
+        <div class="category">
+          <img src="images/khajrana.jpg" alt="Spiritual Places">
+          <div class="category-content">
+            <input type="checkbox" id="spiritual" name="places" value="Spiritual Places">
+            <label for="spiritual">Spiritual Places</label>
+            <p class="description">Visit Indore's sacred temples and places of spiritual significance.</p>
+          </div>
+        </div>
+
+        <!-- Adventure Sports -->
+        <div class="category">
+          <img src="images/adventure.jpeg" alt="Adventure Sports">
+          <div class="category-content">
+            <input type="checkbox" id="adventure" name="places" value="Adventure Sports">
+            <label for="adventure">Adventure Sports</label>
+            <p class="description">If you're adventurous, try some thrilling sports like trekking or paragliding.</p>
+          </div>
+        </div>
+
+        <!-- Heritage Sites -->
+        <div class="category">
+          <img src="images/lalbagh-palace-indore.jpg" alt="Heritage Sites">
+          <div class="category-content">
+            <input type="checkbox" id="heritage" name="places" value="Heritage Sites">
+            <label for="heritage">Heritage Sites</label>
+            <p class="description">Indore boasts a rich history. Explore palaces, forts, and ancient structures.</p>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Serene Indore | Plan your next adventure with us!</p>
+  </footer>
+
+</body>
+</html>
